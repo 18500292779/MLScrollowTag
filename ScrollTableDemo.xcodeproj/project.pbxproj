@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		288BCEB91CF81C0A00906E28 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 288BCEB81CF81C0A00906E28 /* main.m */; };
+		288BCEBC1CF81C0A00906E28 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 288BCEBB1CF81C0A00906E28 /* AppDelegate.m */; };
+		288BCEBF1CF81C0A00906E28 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 288BCEBE1CF81C0A00906E28 /* ViewController.m */; };
+		288BCEC21CF81C0A00906E28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 288BCEC01CF81C0A00906E28 /* Main.storyboard */; };
+		288BCEC41CF81C0A00906E28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 288BCEC31CF81C0A00906E28 /* Assets.xcassets */; };
+		288BCEC71CF81C0A00906E28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 288BCEC51CF81C0A00906E28 /* LaunchScreen.storyboard */; };
+		288BCED21CF81C0A00906E28 /* ScrollTableDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 288BCED11CF81C0A00906E28 /* ScrollTableDemoTests.m */; };
+		288BCEDD1CF81C0A00906E28 /* ScrollTableDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 288BCEDC1CF81C0A00906E28 /* ScrollTableDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		288BCECE1CF81C0A00906E28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 288BCEAC1CF81C0A00906E28 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 288BCEB31CF81C0A00906E28;
+			remoteInfo = ScrollTableDemo;
+		};
+		288BCED91CF81C0A00906E28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 288BCEAC1CF81C0A00906E28 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 288BCEB31CF81C0A00906E28;
+			remoteInfo = ScrollTableDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		288BCEB41CF81C0A00906E28 /* ScrollTableDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScrollTableDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		288BCEB81CF81C0A00906E28 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		288BCEBA1CF81C0A00906E28 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		288BCEBB1CF81C0A00906E28 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		288BCEBD1CF81C0A00906E28 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		288BCEBE1CF81C0A00906E28 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		288BCEC11CF81C0A00906E28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		288BCEC31CF81C0A00906E28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		288BCEC61CF81C0A00906E28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		288BCEC81CF81C0A00906E28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		288BCECD1CF81C0A00906E28 /* ScrollTableDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrollTableDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		288BCED11CF81C0A00906E28 /* ScrollTableDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrollTableDemoTests.m; sourceTree = "<group>"; };
+		288BCED31CF81C0A00906E28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		288BCED81CF81C0A00906E28 /* ScrollTableDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrollTableDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		288BCEDC1CF81C0A00906E28 /* ScrollTableDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrollTableDemoUITests.m; sourceTree = "<group>"; };
+		288BCEDE1CF81C0A00906E28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		288BCEB11CF81C0A00906E28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		288BCECA1CF81C0A00906E28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		288BCED51CF81C0A00906E28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		288BCEAB1CF81C0A00906E28 = {
+			isa = PBXGroup;
+			children = (
+				288BCEB61CF81C0A00906E28 /* ScrollTableDemo */,
+				288BCED01CF81C0A00906E28 /* ScrollTableDemoTests */,
+				288BCEDB1CF81C0A00906E28 /* ScrollTableDemoUITests */,
+				288BCEB51CF81C0A00906E28 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		288BCEB51CF81C0A00906E28 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				288BCEB41CF81C0A00906E28 /* ScrollTableDemo.app */,
+				288BCECD1CF81C0A00906E28 /* ScrollTableDemoTests.xctest */,
+				288BCED81CF81C0A00906E28 /* ScrollTableDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		288BCEB61CF81C0A00906E28 /* ScrollTableDemo */ = {
+			isa = PBXGroup;
+			children = (
+				288BCEBA1CF81C0A00906E28 /* AppDelegate.h */,
+				288BCEBB1CF81C0A00906E28 /* AppDelegate.m */,
+				288BCEBD1CF81C0A00906E28 /* ViewController.h */,
+				288BCEBE1CF81C0A00906E28 /* ViewController.m */,
+				288BCEC01CF81C0A00906E28 /* Main.storyboard */,
+				288BCEC31CF81C0A00906E28 /* Assets.xcassets */,
+				288BCEC51CF81C0A00906E28 /* LaunchScreen.storyboard */,
+				288BCEC81CF81C0A00906E28 /* Info.plist */,
+				288BCEB71CF81C0A00906E28 /* Supporting Files */,
+			);
+			path = ScrollTableDemo;
+			sourceTree = "<group>";
+		};
+		288BCEB71CF81C0A00906E28 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				288BCEB81CF81C0A00906E28 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		288BCED01CF81C0A00906E28 /* ScrollTableDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				288BCED11CF81C0A00906E28 /* ScrollTableDemoTests.m */,
+				288BCED31CF81C0A00906E28 /* Info.plist */,
+			);
+			path = ScrollTableDemoTests;
+			sourceTree = "<group>";
+		};
+		288BCEDB1CF81C0A00906E28 /* ScrollTableDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				288BCEDC1CF81C0A00906E28 /* ScrollTableDemoUITests.m */,
+				288BCEDE1CF81C0A00906E28 /* Info.plist */,
+			);
+			path = ScrollTableDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		288BCEB31CF81C0A00906E28 /* ScrollTableDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 288BCEE11CF81C0A00906E28 /* Build configuration list for PBXNativeTarget "ScrollTableDemo" */;
+			buildPhases = (
+				288BCEB01CF81C0A00906E28 /* Sources */,
+				288BCEB11CF81C0A00906E28 /* Frameworks */,
+				288BCEB21CF81C0A00906E28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScrollTableDemo;
+			productName = ScrollTableDemo;
+			productReference = 288BCEB41CF81C0A00906E28 /* ScrollTableDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		288BCECC1CF81C0A00906E28 /* ScrollTableDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 288BCEE41CF81C0A00906E28 /* Build configuration list for PBXNativeTarget "ScrollTableDemoTests" */;
+			buildPhases = (
+				288BCEC91CF81C0A00906E28 /* Sources */,
+				288BCECA1CF81C0A00906E28 /* Frameworks */,
+				288BCECB1CF81C0A00906E28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				288BCECF1CF81C0A00906E28 /* PBXTargetDependency */,
+			);
+			name = ScrollTableDemoTests;
+			productName = ScrollTableDemoTests;
+			productReference = 288BCECD1CF81C0A00906E28 /* ScrollTableDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		288BCED71CF81C0A00906E28 /* ScrollTableDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 288BCEE71CF81C0A00906E28 /* Build configuration list for PBXNativeTarget "ScrollTableDemoUITests" */;
+			buildPhases = (
+				288BCED41CF81C0A00906E28 /* Sources */,
+				288BCED51CF81C0A00906E28 /* Frameworks */,
+				288BCED61CF81C0A00906E28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				288BCEDA1CF81C0A00906E28 /* PBXTargetDependency */,
+			);
+			name = ScrollTableDemoUITests;
+			productName = ScrollTableDemoUITests;
+			productReference = 288BCED81CF81C0A00906E28 /* ScrollTableDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		288BCEAC1CF81C0A00906E28 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = zhaoml;
+				TargetAttributes = {
+					288BCEB31CF81C0A00906E28 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					288BCECC1CF81C0A00906E28 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 288BCEB31CF81C0A00906E28;
+					};
+					288BCED71CF81C0A00906E28 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 288BCEB31CF81C0A00906E28;
+					};
+				};
+			};
+			buildConfigurationList = 288BCEAF1CF81C0A00906E28 /* Build configuration list for PBXProject "ScrollTableDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 288BCEAB1CF81C0A00906E28;
+			productRefGroup = 288BCEB51CF81C0A00906E28 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				288BCEB31CF81C0A00906E28 /* ScrollTableDemo */,
+				288BCECC1CF81C0A00906E28 /* ScrollTableDemoTests */,
+				288BCED71CF81C0A00906E28 /* ScrollTableDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		288BCEB21CF81C0A00906E28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				288BCEC71CF81C0A00906E28 /* LaunchScreen.storyboard in Resources */,
+				288BCEC41CF81C0A00906E28 /* Assets.xcassets in Resources */,
+				288BCEC21CF81C0A00906E28 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		288BCECB1CF81C0A00906E28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		288BCED61CF81C0A00906E28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		288BCEB01CF81C0A00906E28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				288BCEBF1CF81C0A00906E28 /* ViewController.m in Sources */,
+				288BCEBC1CF81C0A00906E28 /* AppDelegate.m in Sources */,
+				288BCEB91CF81C0A00906E28 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		288BCEC91CF81C0A00906E28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				288BCED21CF81C0A00906E28 /* ScrollTableDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		288BCED41CF81C0A00906E28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				288BCEDD1CF81C0A00906E28 /* ScrollTableDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		288BCECF1CF81C0A00906E28 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 288BCEB31CF81C0A00906E28 /* ScrollTableDemo */;
+			targetProxy = 288BCECE1CF81C0A00906E28 /* PBXContainerItemProxy */;
+		};
+		288BCEDA1CF81C0A00906E28 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 288BCEB31CF81C0A00906E28 /* ScrollTableDemo */;
+			targetProxy = 288BCED91CF81C0A00906E28 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		288BCEC01CF81C0A00906E28 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				288BCEC11CF81C0A00906E28 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		288BCEC51CF81C0A00906E28 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				288BCEC61CF81C0A00906E28 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		288BCEDF1CF81C0A00906E28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		288BCEE01CF81C0A00906E28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		288BCEE21CF81C0A00906E28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ScrollTableDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhaoml.ScrollTableDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		288BCEE31CF81C0A00906E28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ScrollTableDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhaoml.ScrollTableDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		288BCEE51CF81C0A00906E28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ScrollTableDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhaoml.ScrollTableDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScrollTableDemo.app/ScrollTableDemo";
+			};
+			name = Debug;
+		};
+		288BCEE61CF81C0A00906E28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ScrollTableDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhaoml.ScrollTableDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScrollTableDemo.app/ScrollTableDemo";
+			};
+			name = Release;
+		};
+		288BCEE81CF81C0A00906E28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ScrollTableDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhaoml.ScrollTableDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ScrollTableDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		288BCEE91CF81C0A00906E28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ScrollTableDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhaoml.ScrollTableDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ScrollTableDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		288BCEAF1CF81C0A00906E28 /* Build configuration list for PBXProject "ScrollTableDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				288BCEDF1CF81C0A00906E28 /* Debug */,
+				288BCEE01CF81C0A00906E28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		288BCEE11CF81C0A00906E28 /* Build configuration list for PBXNativeTarget "ScrollTableDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				288BCEE21CF81C0A00906E28 /* Debug */,
+				288BCEE31CF81C0A00906E28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		288BCEE41CF81C0A00906E28 /* Build configuration list for PBXNativeTarget "ScrollTableDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				288BCEE51CF81C0A00906E28 /* Debug */,
+				288BCEE61CF81C0A00906E28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		288BCEE71CF81C0A00906E28 /* Build configuration list for PBXNativeTarget "ScrollTableDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				288BCEE81CF81C0A00906E28 /* Debug */,
+				288BCEE91CF81C0A00906E28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 288BCEAC1CF81C0A00906E28 /* Project object */;
+}
