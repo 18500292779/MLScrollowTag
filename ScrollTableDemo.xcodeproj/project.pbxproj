@@ -15,6 +15,8 @@
 		288BCEC71CF81C0A00906E28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 288BCEC51CF81C0A00906E28 /* LaunchScreen.storyboard */; };
 		288BCED21CF81C0A00906E28 /* ScrollTableDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 288BCED11CF81C0A00906E28 /* ScrollTableDemoTests.m */; };
 		288BCEDD1CF81C0A00906E28 /* ScrollTableDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 288BCEDC1CF81C0A00906E28 /* ScrollTableDemoUITests.m */; };
+		28D4826D1CFC2B2700B9D3FE /* lianxi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 28D4826C1CFC2B2700B9D3FE /* lianxi.jpg */; };
+		B19ED1A01E8527E4005DD2A1 /* MLTitleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = B19ED19F1E8527E4005DD2A1 /* MLTitleScrollView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		288BCED81CF81C0A00906E28 /* ScrollTableDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrollTableDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		288BCEDC1CF81C0A00906E28 /* ScrollTableDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrollTableDemoUITests.m; sourceTree = "<group>"; };
 		288BCEDE1CF81C0A00906E28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28D482681CF81FEB00B9D3FE /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		28D4826C1CFC2B2700B9D3FE /* lianxi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lianxi.jpg; sourceTree = "<group>"; };
+		B19ED19E1E8527E4005DD2A1 /* MLTitleScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLTitleScrollView.h; sourceTree = "<group>"; };
+		B19ED19F1E8527E4005DD2A1 /* MLTitleScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLTitleScrollView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,9 @@
 				288BCEBB1CF81C0A00906E28 /* AppDelegate.m */,
 				288BCEBD1CF81C0A00906E28 /* ViewController.h */,
 				288BCEBE1CF81C0A00906E28 /* ViewController.m */,
+				B19ED19D1E8527C1005DD2A1 /* MLTitleScrollView */,
+				28D4826C1CFC2B2700B9D3FE /* lianxi.jpg */,
+				28D482681CF81FEB00B9D3FE /* PrefixHeader.pch */,
 				288BCEC01CF81C0A00906E28 /* Main.storyboard */,
 				288BCEC31CF81C0A00906E28 /* Assets.xcassets */,
 				288BCEC51CF81C0A00906E28 /* LaunchScreen.storyboard */,
@@ -138,6 +147,15 @@
 				288BCEDE1CF81C0A00906E28 /* Info.plist */,
 			);
 			path = ScrollTableDemoUITests;
+			sourceTree = "<group>";
+		};
+		B19ED19D1E8527C1005DD2A1 /* MLTitleScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				B19ED19E1E8527E4005DD2A1 /* MLTitleScrollView.h */,
+				B19ED19F1E8527E4005DD2A1 /* MLTitleScrollView.m */,
+			);
+			path = MLTitleScrollView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -245,6 +263,7 @@
 			files = (
 				288BCEC71CF81C0A00906E28 /* LaunchScreen.storyboard in Resources */,
 				288BCEC41CF81C0A00906E28 /* Assets.xcassets in Resources */,
+				28D4826D1CFC2B2700B9D3FE /* lianxi.jpg in Resources */,
 				288BCEC21CF81C0A00906E28 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,6 +291,7 @@
 			files = (
 				288BCEBF1CF81C0A00906E28 /* ViewController.m in Sources */,
 				288BCEBC1CF81C0A00906E28 /* AppDelegate.m in Sources */,
+				B19ED1A01E8527E4005DD2A1 /* MLTitleScrollView.m in Sources */,
 				288BCEB91CF81C0A00906E28 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -413,6 +433,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ScrollTableDemo/PrefixHeader.pch";
 				INFOPLIST_FILE = ScrollTableDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = zhaoml.ScrollTableDemo;
@@ -424,6 +445,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ScrollTableDemo/PrefixHeader.pch";
 				INFOPLIST_FILE = ScrollTableDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = zhaoml.ScrollTableDemo;
@@ -498,6 +520,7 @@
 				288BCEE31CF81C0A00906E28 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		288BCEE41CF81C0A00906E28 /* Build configuration list for PBXNativeTarget "ScrollTableDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +529,7 @@
 				288BCEE61CF81C0A00906E28 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		288BCEE71CF81C0A00906E28 /* Build configuration list for PBXNativeTarget "ScrollTableDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +538,7 @@
 				288BCEE91CF81C0A00906E28 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
