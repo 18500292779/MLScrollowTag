@@ -60,7 +60,7 @@
     }
     UIButton *btn0 = [btnArray firstObject];
     
-    lineView = [[UIView alloc]initWithFrame:CGRectMake(0, SFrame.size.height -2, btn0.frame.size.width, 2)];
+    lineView = [[UIView alloc]initWithFrame:CGRectMake(10, SFrame.size.height -2, btn0.frame.size.width-20, 2)];
     lineView.backgroundColor = [UIColor blueColor];
     [self addSubview:lineView];
     
@@ -79,30 +79,35 @@
             [button setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
         }
     }
-    CGFloat vlength = btn.frame.origin.x - self.contentOffset.x;
-    
-    if (vlength>SCREEN_WIDTH - btn.frame.size.width) {
+    UIWindow *window = [UIApplication sharedApplication].keyWindow;
+    CGRect rect = [btn convertRect:btn.bounds toView:window];
+    CGFloat posileft = rect.origin.x;
+    if (btn.tag - 10000 == 0) {
         [UIView animateWithDuration:0.5 animations:^{
-            
-            if (btn.frame.origin.x - CenterPointX >=0) {
-                CGFloat x = btn.frame.origin.x - CenterPointX;
-                
-                if (x>self.contentSize.width - SCREEN_WIDTH) {
-                    x= self.contentSize.width - SCREEN_WIDTH;
-                }
-                self.contentOffset = CGPointMake(x, 0);
-            }else{
-                self.contentOffset = CGPointMake(0, 0);
-            }
+            self.contentOffset = CGPointMake(0, 0);
         }];
-    }else if (vlength<0){
+    }else if (btn.tag - 10000 == btnArray.count-1) {
         [UIView animateWithDuration:0.5 animations:^{
-            self.contentOffset = CGPointMake(btn.frame.origin.x, 0);
-            lineView.frame = CGRectMake(btn.frame.origin.x, SFrame.size.height -2, btn.frame.size.width, 2);
+            self.contentOffset = CGPointMake(btn.frame.origin.x-SCREEN_WIDTH+btn.frame.size.width, 0);
         }];
     }
+    else{
+        UIButton *lastBtn = btnArray[btn.tag - 10000 - 1];
+        UIButton *nextBtn = btnArray[btn.tag - 10000 + 1];
+        if (posileft-lastBtn.frame.size.width<0) {
+            [UIView animateWithDuration:0.5 animations:^{
+                self.contentOffset = CGPointMake(lastBtn.frame.origin.x, 0);
+            }];
+        }
+        if (posileft +btn.frame.size.width + nextBtn.frame.size.width>SCREEN_WIDTH) {
+            [UIView animateWithDuration:0.5 animations:^{
+                self.contentOffset = CGPointMake(nextBtn.frame.origin.x-SCREEN_WIDTH+nextBtn.frame.size.width, 0);
+            }];
+        }
+    }
+    
     [UIView animateWithDuration:0.5 animations:^{
-        lineView.frame = CGRectMake(btn.frame.origin.x, SFrame.size.height -2, btn.frame.size.width, 2);
+        lineView.frame = CGRectMake(btn.frame.origin.x+10, SFrame.size.height -2, btn.frame.size.width-20, 2);
     }];
     [self.myDelegate scrollowButtonClick:btn.tag - 10000];
 }

@@ -42,7 +42,7 @@
 }
 
 - (void)scrollowButtonClick:(NSInteger)index {
-
+    NSLog(@"选择了 === %@",dataArr[index]);
 }
 
 
